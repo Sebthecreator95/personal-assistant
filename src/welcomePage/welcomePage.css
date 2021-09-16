@@ -1,0 +1,51 @@
+.about {
+	background-color: rgb(248, 212, 166);
+
+	border-color: red;
+	border-radius: 10px;
+	width: 80%;
+	height: 200px;
+	align-items: center;
+	display: flex;
+}
+.heading {
+	background-color: pink;
+	width: 75%;
+	height: 20px;
+	border-radius: 10px;
+}
+
+.Welcomepage {
+	background-color: rgb(0, 204, 255);
+	height: 100%;
+	width: 75%;
+	align-items: center;
+	align-content: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	border-radius: 10px;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+.website-design {
+	background-color: rgb(248, 212, 166);
+	width: 80%;
+	height: 300px;
+	border: 100px;
+	border-color: red;
+	border-radius: 10px;
+
+	align-items: center;
+	display: flex-start;
+}
+.welcome-heading {
+	border-bottom: white;
+	border-bottom-style: solid;
+	width: 35%;
+}
+.button {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	display: flex;
+	align-content: center;
+}

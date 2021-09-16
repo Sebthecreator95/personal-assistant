@@ -1,0 +1,16 @@
+.navbar-icon {
+	width: 100px;
+	height: 80px;
+}
+.navbar {
+	background-color: transparent;
+	border-bottom: 2px solid rgb(0, 204, 255);
+	width: 85%;
+	align-items: center;
+}
+#responsive-navbar-nav {
+	align-items: right;
+}
+.nav-link {
+	padding: 15px;
+}
