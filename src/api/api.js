@@ -54,13 +54,13 @@ class PamApi {
 
 
   static async login(data) {
-    let res = await this.request(`/token`, data, "post");
+    let res = await this.request(`token`, data, "post");
     return res.token;
   }
 
   static async signup(data) {
     let userId=uuidv4();
-    let res = await this.request(`/signup`, {...data, userId }, "post");
+    let res = await this.request(`register`, {...data, userId }, "post");
     return res.token;
   }
 

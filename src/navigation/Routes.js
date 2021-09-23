@@ -17,7 +17,7 @@ function Routes({ login, signup }) {
     return (
       <main>
         <Switch>
-          <Route exact path="/welcome">
+          <Route exact path="/">
             <WelcomePage/>
           </Route>
 

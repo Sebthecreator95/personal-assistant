@@ -25,7 +25,7 @@ function App() {
           let { username } = jwt.decode(token);
           // put the token on the Api class so it can use it to call the API.
           PamApi.token = token;
-          let currentUser = await PamApi.get(username);
+          let currentUser = await PamApi.getCurrentUser(username);
           setCurrentUser(currentUser);
         } catch (err) {
           console.error("App loadUserInfo: problem loading", err);

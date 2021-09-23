@@ -59,7 +59,7 @@ return (
     <Navbar className="Navigation navbar" sticky="top" Container>
     
       <center>
-      <Link className="navbar-brand" to={currentUser ? `/${currentUser.username}`: "/welcome"}>
+      <Link className="navbar-brand" to={currentUser ? `/${currentUser.username}`: "/"}>
       <img className = "navbar-icon" src="https://www.kindpng.com/picc/m/66-663423_virtual-assistant-png-transparent-png.png" alt="personal assistants drawing"/>
       </Link>
       </center>
