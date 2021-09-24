@@ -46,7 +46,7 @@ function NavBar({ logout }) {
               </Dropdown.Item>
               <Dropdown.Item>
                 <Link class="nav-link" to="/" onClick={logout}>
-                  Log out {currentUser.username}
+                  Log out 
                 </Link>
               </Dropdown.Item>
             </DropdownButton>
