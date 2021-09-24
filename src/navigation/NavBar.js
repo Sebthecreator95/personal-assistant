@@ -44,6 +44,11 @@ function NavBar({ logout }) {
                   SignUp
                 </NavLink>
               </Dropdown.Item>
+              <Dropdown.Item>
+                <Link class="nav-link" to="/" onClick={logout}>
+                  Log out {currentUser.username}
+                </Link>
+              </Dropdown.Item>
             </DropdownButton>
         );
       }
