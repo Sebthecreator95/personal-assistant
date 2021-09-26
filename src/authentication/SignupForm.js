@@ -55,7 +55,7 @@ function SignupForm({ signup }) {
     setFormData(data => ({ ...data, [name]: value }));
   }
   if (currentUser) {
-    return <Redirect to="/{curentUser.username}" />;
+    return <Redirect to={currentUser.username}/>;
   }
 
   return (

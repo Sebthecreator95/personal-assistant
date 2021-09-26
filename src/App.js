@@ -7,7 +7,6 @@ import PamApi from "./api/api";
 import jwt from "jsonwebtoken";
 import NavBar from "./navigation/NavBar";
 import Routes from "./navigation/Routes";
-import { Container } from "react-bootstrap";
 
 export const TOKEN_STORAGE_ID = "pam-token";
 
