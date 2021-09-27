@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import PamApi from "../api/api";
 import UserContext from "../authentication/UserContext";
 
-function Events(dateStringFormat){
+function Events({dateStringFormat}){
 
   function getMonth(dateStringFormat){
     return dateStringFormat.slice(0,3)
