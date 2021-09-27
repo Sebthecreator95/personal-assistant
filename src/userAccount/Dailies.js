@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function Dailies(dailies){
+function Dailies({dailies}){
   if(!dailies){
     return(
       <p>NO Dailies added yet!</p>
@@ -10,7 +10,7 @@ function Dailies(dailies){
     return(
       <>
       <ul>
-        {dailies.map(daily =>(
+        {dailies.forEach(daily =>(
           <li>
             {daily.dailyText}
           </li>

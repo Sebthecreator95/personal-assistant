@@ -20,7 +20,7 @@ function Events(dateStringFormat){
   }
   return(
     <div class ="events">
-      {events.map(event =>
+      {events.forEach(event =>
           <div class="event">
             <div class>
               <img src={event.icon}></img>
