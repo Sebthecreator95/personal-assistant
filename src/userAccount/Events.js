@@ -13,7 +13,11 @@ function Events(dateStringFormat){
   const year = dateStringFormat.slice(7,4);
   let userId = currentUser.userId;
   const events = PamApi.getDateEvents(userId, month, day, year);
-
+  if(!events){
+    return(
+      <p>No events</p>
+    )
+  }
   return(
     <div class ="events">
       {events.map(event =>
