@@ -2,8 +2,8 @@ import React, { useState} from "react";
 import{ Container, Col, Row } from 'react-bootstrap';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
-import Events from "./Events";
-
+//import Events from "./Events";
+//<Events dateStringFormat={dateStringFormat}/>
 
 
 
@@ -22,7 +22,7 @@ function CalendarSection(){
       <Calendar
       onChange={setDate}
       value={date} />
-      <Events dateStringFormat={dateStringFormat}/>
+      
       
     </Container>
     );

@@ -19,7 +19,7 @@ const { currentUser } = useContext(UserContext);
         }
         getEvents();
       }, []);
-
+    console.log(events);
 
     return(
     <Container fluid>
