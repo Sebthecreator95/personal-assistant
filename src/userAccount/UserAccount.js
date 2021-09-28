@@ -1,5 +1,6 @@
 import React, {useContext, useEffect} from "react";
-import{Container,Col} from 'react-bootstrap';
+import Container from "react-bootstrap/Container";
+import Col from "react-bootstrap/Col";
 import UserContext from "../authentication/UserContext";
 import useUpdateState from "../hooks/useUpdateState";
 import CalendarSection from "./CalendarSection";
