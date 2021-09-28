@@ -8,6 +8,7 @@ import CalendarSection from "./CalendarSection";
 import DailiesSection from "./DailiesSection";
 import EventsForm from "./forms/EventsForm";
 import PamApi from "../api/api";
+import "./userAccount.css";
 
 
 function UserAccount(){
