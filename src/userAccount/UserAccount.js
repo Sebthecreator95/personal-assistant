@@ -23,14 +23,14 @@ const { currentUser } = useContext(UserContext);
 
     return(
     <Container fluid>
-        <Col md={3}>
+        <Col class="dailies-section" md={3}>
             <DailiesSection/>
         </Col>
-        <Col md={6}>
+        <Col class="calendar-section" md={6}>
             <CalendarSection />
         </Col>
-        <Col md={3}>
-        <EventsForm addEvent={updateEvents}/>
+        <Col class="right-side" md={3}>
+        <EventsForm class="event-form" addEvent={updateEvents}/>
         </Col>
     </Container>
 );
