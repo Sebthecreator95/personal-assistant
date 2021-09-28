@@ -1,11 +1,17 @@
 .right-side {
 	border: 3px;
+	float: right;
+	width: 25%;
 }
 
 .dailies-section {
 	border: 3px;
+	float: left;
+	width: 25%;
 }
 
 .calendar-section {
 	border: 3px;
+	float: right;
+	width: 50%;
 }
