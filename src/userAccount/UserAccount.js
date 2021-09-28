@@ -1,5 +1,6 @@
 import React, {useContext, useEffect} from "react";
 import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import UserContext from "../authentication/UserContext";
 import useUpdateState from "../hooks/useUpdateState";
@@ -24,6 +25,7 @@ const { currentUser } = useContext(UserContext);
 
     return(
     <Container fluid>
+        <Row>
         <Col class="dailies-section" md={3}>
             <DailiesSection/>
         </Col>
@@ -33,6 +35,7 @@ const { currentUser } = useContext(UserContext);
         <Col class="right-side" md={3}>
         <EventsForm class="event-form" addEvent={updateEvents}/>
         </Col>
+        </Row>
     </Container>
 );
 }
