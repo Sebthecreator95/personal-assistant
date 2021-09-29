@@ -12,6 +12,10 @@
 
 .calendar-section {
 	border: 3px;
-	float: right;
+	float: left;
 	width: 50%;
+}
+
+.table {
+	display: table;
 }

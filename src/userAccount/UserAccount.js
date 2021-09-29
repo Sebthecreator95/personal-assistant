@@ -1,7 +1,5 @@
 import React, {useContext, useEffect} from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { Container, Row, Col } from "reactstrap";
 import UserContext from "../authentication/UserContext";
 import useUpdateState from "../hooks/useUpdateState";
 import CalendarSection from "./CalendarSection";
@@ -26,7 +24,7 @@ const { currentUser } = useContext(UserContext);
 
     return(
     <Container fluid>
-        <Row>
+        <Row class="table">
         <Col class="dailies-section" md={3}>
             <DailiesSection/>
         </Col>
