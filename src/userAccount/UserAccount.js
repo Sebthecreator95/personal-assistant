@@ -25,15 +25,15 @@ const { currentUser } = useContext(UserContext);
     return(
     <Container fluid>
         <Row class="table">
-        <Col class="dailies-section" md={3}>
-            <DailiesSection/>
-        </Col>
-        <Col class="calendar-section" md={6}>
-            <CalendarSection />
-        </Col>
-        <Col class="right-side" md={3}>
-        <EventsForm class="event-form" addEvent={updateEvents}/>
-        </Col>
+            <Col class="dailies-section" md={3}>
+                <DailiesSection/>
+            </Col>
+            <Col class="calendar-section" md={6}>
+                <CalendarSection />
+            </Col>
+            <Col class="right-side" md={3}>
+            <EventsForm class="event-form" addEvent={updateEvents}/>
+            </Col>
         </Row>
     </Container>
 );
