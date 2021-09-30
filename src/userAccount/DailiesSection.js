@@ -1,5 +1,5 @@
 import React,{useEffect, useContext} from "react";
-import{ Container, Col, Row } from 'react-bootstrap';
+import { Container, Row, Col } from 'reactstrap';
 import UserContext from "../authentication/UserContext";
 import PamApi from "../api/api";
 import DailiesForm from "./forms/DailiesForm";

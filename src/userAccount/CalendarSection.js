@@ -1,5 +1,5 @@
 import React, { useState} from "react";
-import{ Container, Col, Row } from 'react-bootstrap';
+import { Container, Row, Col } from 'reactstrap';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 //import Events from "./Events";
