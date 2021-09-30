@@ -22,16 +22,18 @@ const { currentUser } = useContext(UserContext);
     console.log(events);
 
     return(
-    <div class="user-account">
-                <div class="dailies-section" md={3}>
-                    <DailiesSection/>
-                </div>
-                <div class="calendar-section" md={6}>
-                    <CalendarSection />
-                </div>
-                <div class="right-side" md={3}>
+    <div class="container">
+        <div class="user-account">
+            <div class="dailies-section" md={3}>
+                <DailiesSection/>
+            </div>
+            <div class="calendar-section" md={6}>
+                <CalendarSection />
+            </div>
+            <div class="right-side" md={3}>
                 <EventsForm class="event-form" addEvent={updateEvents}/>
-                </div>
+            </div>
+        </div>
     </div>
 );
 }
