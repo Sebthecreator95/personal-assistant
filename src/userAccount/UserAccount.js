@@ -1,5 +1,5 @@
 import React, {useContext, useEffect} from "react";
-import { Container, Col, Table } from "reactstrap";
+import { Container, Col } from "reactstrap";
 import UserContext from "../authentication/UserContext";
 import useUpdateState from "../hooks/useUpdateState";
 import CalendarSection from "./CalendarSection";
@@ -24,7 +24,6 @@ const { currentUser } = useContext(UserContext);
 
     return(
     <Container >
-        <Table class="table">
                 <Col class="dailies-section" md={3}>
                     <DailiesSection/>
                 </Col>
@@ -34,7 +33,6 @@ const { currentUser } = useContext(UserContext);
                 <Col class="right-side" md={3}>
                 <EventsForm class="event-form" addEvent={updateEvents}/>
                 </Col>
-        </Table>
     </Container>
 );
 }
