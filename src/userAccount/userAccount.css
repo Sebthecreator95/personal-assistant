@@ -1,1 +1,19 @@
+.dalies-section {
+	float: left;
+	width: 33.33%;
+}
+.calendar-section {
+	float: left;
+	width: 33.33%;
+}
+.right-side {
+	float: left;
+	width: 33.33%;
+}
 
+/* Stops the float property from affecting content after the columns */
+.user-account:after {
+	content: "";
+	display: table;
+	clear: both;
+}
