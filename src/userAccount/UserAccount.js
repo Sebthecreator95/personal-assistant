@@ -1,5 +1,4 @@
 import React, {useContext, useEffect} from "react";
-import { Container } from "reactstrap";
 import UserContext from "../authentication/UserContext";
 import useUpdateState from "../hooks/useUpdateState";
 import CalendarSection from "./CalendarSection";
@@ -23,7 +22,7 @@ const { currentUser } = useContext(UserContext);
     console.log(events);
 
     return(
-    <Container class="user-account">
+    <div class="user-account">
                 <div class="dailies-section" md={3}>
                     <DailiesSection/>
                 </div>
@@ -33,7 +32,7 @@ const { currentUser } = useContext(UserContext);
                 <div class="right-side" md={3}>
                 <EventsForm class="event-form" addEvent={updateEvents}/>
                 </div>
-    </Container>
+    </div>
 );
 }
 
